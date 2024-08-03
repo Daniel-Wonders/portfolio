@@ -1,30 +1,35 @@
 html{
   box-sizing: border-box;
   text-align: center;
-  
+  font-optical-sizing: auto;
 }
-
+*{
+  font-family: "Roboto", sans-serif;
+}
 header{
   margin-top: none;
   height: max-content;
   background-color: #1343c9;
   display: flex;
-
+  font-family: "Josefin Sans", sans-serif;
+  
 }
 
 #name{
   color: whitesmoke;
   padding-left: 2rem;
-  font-size: 1.7rem;
+  font-size: 5vh;
+  margin: auto auto  auto 1rem;
 }
 
 ul{
-  margin-top: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: 2rem;
   display: flex;
   flex-direction: row;
-  width: 30vw;
+  width: 35vw;
   height: 10vh;
 }
 
@@ -35,7 +40,8 @@ li{
   margin:auto auto;
   font-weight: 700;
   text-decoration: none;
-  font-size: large;
+  font-size: 3.5vh;
+
 }
 
 .nav-link{
@@ -48,6 +54,30 @@ li{
   color: rgb(141, 141, 141); /* Text color on hover */
 
   cursor: pointer; /* Pointer cursor on hover */
+}
+
+#hero{
+
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: #4174ff86;
+  margin: 20px;
+  border-radius: 40px;
+}
+
+.text{
+  margin: 0.7em auto 0.1em 30px;
+  color:#000000;
+}
+
+.intro{
+  font-size: 7vh;
+  margin: 0.7em auto 0.1em 0.7em;
+}
+
+.intro3{
+  padding-bottom: 40px;
 }
 
 body {
@@ -70,17 +100,25 @@ footer {
   height: 74px;
   display: flex;
   flex-shrink: 0;
-  justify-content: center;
   align-items: center;
   margin-top: auto;
   font-weight: 500;
 }
 
+.belowLinks{
+  margin: auto;
+}
+.belowLink{
+  font-size: medium ;
+}
 #footerLink{
   color: #006eff;
   text-decoration: none;
 }
-
+#copyright{
+  justify-self: start;
+  margin: auto auto auto 10px;
+}
 #footerLink:hover{
   color: #57a0ff;
   text-decoration: none;
