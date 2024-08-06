@@ -3,7 +3,13 @@ import { NavLink } from "react-router-dom";
 
 export default function Home(){
 
-
+    function downloadResume(){
+        console.log("download")
+        const link = document.createElement('a');
+        link.href = process.env.PUBLIC_URL+"/resume.pdf"; // Replace with the path to your PDF file
+        link.download = 'AllocoLautaroResume.pdf'; // Replace with the desired file name
+        link.click();
+    }
 
     return(
         <section>
@@ -30,7 +36,7 @@ export default function Home(){
                     <NavLink to="/contact" className="btns">
                         My contact information
                     </NavLink>
-                    <button className="btns btns2">
+                    <button onClick={downloadResume} className="btns btns2">
                         Download Resume
                     </button>
                 </div>

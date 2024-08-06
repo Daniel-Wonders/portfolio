@@ -64,6 +64,8 @@ li {
   cursor: pointer;
 }
 
+/*Home page*/
+
 #hero {
   display: grid;
   height: fit-content;
@@ -104,11 +106,13 @@ li {
   grid-area: text;
   margin-top: 15vh;
   margin-left: 60px;
+  font-weight: 500;
+
 }
 
 .intro3 {
   margin-left: 60px;
-
+  font-weight: 500;
   padding-bottom: 40px;
   grid-area: text;
   margin-top: 21.5vh;
@@ -138,6 +142,42 @@ li {
 .btns2{
   background-color: #40444b;
 }
+
+/*About Page*/
+
+#AboutHero {
+  display: grid;
+  height: fit-content;
+  background-color: #4174ff86;
+  margin: 20px;
+  border-radius: 40px;
+  font-family: "Righteous", sans-serif;
+  grid-template-areas:' image text text text'
+                      ' image text text text' 
+                      ' image text text text';
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+#aboutPic{
+  border-radius: 40px;
+  margin: 2rem;
+  margin-right: 0px;
+  grid-area: image;
+}
+
+#aboutTxt{
+  grid-area: text;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+#skillsSection{
+  display: flex;
+  flex-wrap: wrap
+}
+
+
 
 footer {
   background-color: #16161600;
@@ -173,4 +213,15 @@ footer {
 #footerLink:hover {
   color: #57a0ff;
   text-decoration: none;
+}
+
+@media (max-width:1449px){
+  #hero{
+    grid-template-areas: 'text    text   text'
+    'image image   image' 
+    'buttons buttons buttons';
+  }
+  ul {
+    width: 60vw;
+  }
 }
