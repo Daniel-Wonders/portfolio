@@ -138,9 +138,16 @@ li {
   margin-bottom: 1vh;
   font-size: 1.5rem;
 }
+.btns:hover{
+  background-color: #001aff;
+}
 
 .btns2{
   background-color: #40444b;
+}
+
+.btns2:hover{
+  background-color: #262729;
 }
 
 /*About Page*/
@@ -177,6 +184,15 @@ li {
   flex-wrap: wrap
 }
 
+.skill{
+}
+
+.icon{
+  height: 10vh;
+  width: 10vh;
+  background-color: transparent;
+
+}
 
 
 footer {

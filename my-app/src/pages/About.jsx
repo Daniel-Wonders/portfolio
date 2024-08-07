@@ -22,12 +22,21 @@ export default function About(){
                 </div>
             </div>
             <div id="skillsSection">
-                <i class="fa-brands fa-html5"></i>
-                <div className="skill">Javascript</div>
-                <div className="skill">HTML5</div>
-                <div className="skill">CSS</div>
-                <div className="skill">Javascript</div>
-                <div className="skill">Javascript</div>
+                <div className="skill">
+                    <img className="icon" src={process.env.PUBLIC_URL+"https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"}/>
+                    Javascript</div>
+                <div className="skill">
+                    <img className="icon" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html-2752158-2284975.png?f=webp"/>
+                    HTML5</div>
+                <div className="skill">
+                    <img className="icon" src={process.env.PUBLIC_URL+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDwBd9LoQzBAZigXXxzQ0kKn6TwyrE0Y7Rg&s"}/>
+                    CSS</div>
+                <div className="skill">
+                    <img className="icon" src={process.env.PUBLIC_URL+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s"}/>
+                    React</div>
+                <div className="skill">
+                    <img className="icon" src={process.env.PUBLIC_URL+"https://www.svgrepo.com/show/354262/react-router.svg"}/>
+                    React Router</div>
 
             </div>
         </>
