@@ -177,11 +177,17 @@ li {
   grid-area: text;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 1rem 3rem 1rem 3rem;
+  font-size: large;
+}
+
+#lenguages{
+  margin: 20px;
 }
 
 #skillsSection{
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  margin: 30px;
 }
 
 .skill{
@@ -189,6 +195,8 @@ li {
   border-radius: 40px;
   display: flex;
   border:outset rgba(0, 0, 0, 0.466);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .skill:hover{
@@ -207,7 +215,7 @@ li {
 .skill > p {
   color: rgb(0, 0, 0);
   margin: auto;
-  margin-right: 13px;
+  margin-right: 15px;
   font-size: larger;
   font-weight: 500;
 }
