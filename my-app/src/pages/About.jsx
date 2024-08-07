@@ -54,6 +54,10 @@ export default function About(){
                 <div className="skill">
                     <img className="icon" src="https://cdn.iconscout.com/icon/free/png-256/free-firebase-3521427-2944871.png?f=webp"/>
                     <p>Firebase</p></div>
+                <div className="skill">
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968259.png"/>
+                    <p>Haskell</p></div>
+                    
             </div>
         </>
     )
