@@ -201,7 +201,8 @@ li {
 
 .skill:hover{
   background-color: #8d8d8dc0;
-  color: white;
+  color: black;
+  border: dotted;
 }
 
 .icon{
@@ -220,6 +221,37 @@ li {
   font-weight: 500;
 }
 
+/*Projects page*/
+
+#projectContainer{
+  margin: 30px;
+  border: solid red 1px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.project{
+  height: 35vh;
+  background-color: #8d8d8dc0;
+  width: fit-content;
+  width: 60vw;
+  border-radius: 50px;
+  border:solid rgb(73, 73, 73);
+  margin-bottom: 2rem;
+}
+
+#project1{
+
+}
+
+#project2{
+  margin-left: auto;
+}
+
+#project3{
+
+}
 
 footer {
   background-color: #16161600;
