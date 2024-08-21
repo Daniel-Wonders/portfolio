@@ -2,6 +2,7 @@ import React from "react";
 
 export default function About(){
 
+    window.scrollTo({top:0,behavior:"smooth"});
 
 
     return (
@@ -19,7 +20,7 @@ export default function About(){
             <div id="skillsSection">
                 <h2 id="lenguages">Lenguages and technologies:</h2>
                 <div className="skill">
-                    <img className="icon" src="https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"/>
+                    <img className="icon" src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"/>
                     <p>Javascript</p></div>
                 <div className="skill">
                     <img className="icon" src="https://cdn-icons-png.flaticon.com/256/3128/3128323.png"/>
@@ -37,7 +38,7 @@ export default function About(){
                     <img className="icon" src="https://cdn.iconscout.com/icon/free/png-256/free-python-3628999-3030224.png?f=webp&w=256"/>
                     <p>Python</p></div>
                 <div className="skill">
-                    <img className="icon" src="https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png"/>
+                    <img className="icon" src="https://cdn-icons-png.freepik.com/512/4299/4299956.png"/>
                     <p>SQL</p></div>
                 <div className="skill">
                     <img className="icon" src="https://img.icons8.com/?size=512&id=13679&format=png"/>
@@ -49,7 +50,7 @@ export default function About(){
                     <img className="icon" src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png?f=webp&w=256"/>
                     <p>NodeJs</p></div>
                 <div className="skill">
-                    <img className="icon" src="https://static-00.iconduck.com/assets.00/apps-arduino-icon-256x256-mp2raho4.png"/>
+                    <img className="icon" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/arduino_logo_icon_170518.png"/>
                     <p>Arduino</p></div>
                 <div className="skill">
                     <img className="icon" src="https://cdn.iconscout.com/icon/free/png-256/free-firebase-3521427-2944871.png?f=webp"/>

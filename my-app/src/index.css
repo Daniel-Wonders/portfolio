@@ -225,7 +225,6 @@ li {
 
 #projectContainer{
   margin: 30px;
-  border: solid red 1px;
   display: flex;
   flex-direction: column;
 
@@ -233,7 +232,7 @@ li {
 
 .project{
   height: 35vh;
-  background-color: #8d8d8dc0;
+  background-color: #bdbdbdc0;
   width: fit-content;
   width: 60vw;
   border-radius: 50px;
@@ -251,6 +250,74 @@ li {
 
 #project3{
 
+}
+
+@keyframes fadeInFromLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.project {
+  opacity: 0; 
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  width: min-content;
+}
+
+.project:nth-child(odd) {
+  animation-name: fadeInFromLeft;
+}
+
+.project:nth-child(even) {
+  animation-name: fadeInFromRight;
+}
+
+.project > img{
+  width: 600px;
+  margin: 5px 10px;
+  border-radius: 40px;
+}
+
+.project > .container{
+  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 450px;
+}
+
+.project >.container> .btnContainer2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: auto;
+  margin: auto;
+  width: fit-content;
+}
+
+.project >.container> .btnContainer2 >a{
+  margin: 1em;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
 }
 
 footer {

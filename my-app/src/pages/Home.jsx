@@ -11,6 +11,9 @@ export default function Home(){
         link.click();
     }
 
+    window.scrollTo({top:0,behavior:"smooth"});
+
+
     return(
         <section>
             <div id="hero">
