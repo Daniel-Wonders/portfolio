@@ -17,11 +17,11 @@ export default function Home(){
     return(
         <section>
             <div id="hero">
+                <div>
                 <h1 className="intro text">
                     Name's Lautaro, pleased to meet you
                 </h1>
 
-                <img id="pfp" src={process.env.PUBLIC_URL+"/pfp2.png"}/>
 
                 <h2 className="intro2 text">
                     I'm a profesional web developer
@@ -29,6 +29,8 @@ export default function Home(){
                 <h3 className="intro3 text">
                     Want to work together?
                 </h3>
+                </div>
+                <img id="pfp" src={process.env.PUBLIC_URL+"/pfp2.png"}/>
                 <div className="btnContainer">
                     <NavLink to="/about" className="btns">
                         Learn more about me
