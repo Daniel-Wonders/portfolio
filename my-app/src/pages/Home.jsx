@@ -30,7 +30,7 @@ export default function Home(){
                     Want to work together?
                 </h3>
                 </div>
-                <img id="pfp" src={process.env.PUBLIC_URL+"/pfp2.png"}/>
+                <img alt="selfie with my handsome face" id="pfp" src={process.env.PUBLIC_URL+"/pfp2.png"}/>
                 <div className="btnContainer">
                     <NavLink to="/about" className="btns">
                         Learn more about me
