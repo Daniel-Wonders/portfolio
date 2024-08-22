@@ -74,6 +74,10 @@ li {
   color: white;
 }
 
+
+
+
+
 #sidePanel {
   position: fixed;
   top: 0;
@@ -87,12 +91,10 @@ li {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  transition: right 0.3s ease-in-out; /* Animation for sliding in and out */
 }
 
 #sidePanel.open {
   right: 0;
-  transition: right 0.3s ease-in-out; /* Ensures smooth transition when the panel opens */
 }
 
 #sidePanel ul {
@@ -117,13 +119,11 @@ li {
   border-radius: 8px;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transform: translateX(20px);
+
 }
 
 #sidePanel.open .panel-link {
   opacity: 1;
-  transform: translateX(0);
 }
 
 .panel-link:hover {
