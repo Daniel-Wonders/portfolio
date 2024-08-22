@@ -401,6 +401,37 @@ li {
   }
 }
 
+@keyframes fadeInFromTop {
+  0% {
+      opacity: 0;
+      transform: translateY(-100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFromBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
 @keyframes fadeInFromRight {
   0% {
       opacity: 0;
@@ -478,6 +509,48 @@ li {
   }
   .project >.container> .btnContainer2 >a{
     width: 20vw !important;
+  }
+}
+
+/*Contact page*/
+
+#contactHero {
+  display: grid;
+  height: 57vh;
+  background-color: #4174ff86;
+  margin: 20px;
+  border-radius: 40px;
+  font-family: "Righteous", sans-serif;
+  grid-template-areas: 'text    text   none'
+                      'text text   buttons' ;
+  gap: 10px;
+  margin-bottom: 2rem;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+#contactHero:nth-child(odd) {
+  animation-name: fadeIn;
+}
+
+#contactText{
+  font-size: larger;
+  grid-area: text;
+  margin-top: 70px;
+}
+
+.btnContainer3{
+  grid-area: buttons;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-self: center;
+}
+
+@media(max-width:900px){
+  #contactHero{
+    border: solid red;
+    grid-template-areas: 'text       '
+                        'buttons    ' ;
   }
 }
 
