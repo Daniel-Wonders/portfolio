@@ -8,14 +8,14 @@ export default function Projects(){
 
     return(
         <div id="projectContainer">
-            <div id="project1" className="project">
-                <img  src={process.env.PUBLIC_URL+"/memeGenerator.jfif"} />
+            <div id="project3" className="project">
+                <img  src={process.env.PUBLIC_URL+"/portfolio.png"} />
                 <div className="container">
-                    <h3 style={{marginTop:"5px"}}>Meme Generator</h3>
-                    <p>Web app I made using the imgflip API. It utiliizes React. It takes a random image from the memes stored in imgFlip and allows you create and download a self made meme.</p>
+                    <h3 style={{marginTop:"5px"}}>Personal landing page</h3>
+                    <p>This website you're looking right now was made using different routes from React Router, also, I made it responsive so it can be displayed from any device.</p>
                     <div className="btnContainer2">
-                        <a href="https://daniel-wonders.github.io/meme-generator/" target="_blank" className="btns">Website</a>
-                        <a href="https://github.com/Daniel-Wonders/meme-generator" target="_blank" className="btns btns2">Source Code</a>
+                        <Link to="/" className="btns">Website</Link>
+                        <a target="_blank" href="https://github.com/Daniel-Wonders/portfolio" className="btns btns2">Source Code</a>
                     </div>
                 </div>
             </div>
@@ -30,17 +30,19 @@ export default function Projects(){
                 </div>
             <img  src={process.env.PUBLIC_URL+"/animeQuiz.png"} />
             </div>
-            <div id="project3" className="project">
-            <img  src={process.env.PUBLIC_URL+"/portfolio.png"} />
+            <div id="project1" className="project">
+                <img  src={process.env.PUBLIC_URL+"/memeGenerator.jfif"} />
                 <div className="container">
-                    <h3 style={{marginTop:"5px"}}>Personal landing page</h3>
-                    <p>This website you're looking right now was made using different routes from React Router, also, I made it responsive so it can be displayed from any device.</p>
+                    <h3 style={{marginTop:"5px"}}>Meme Generator</h3>
+                    <p>Web app I made using the imgflip API. It utiliizes React. It takes a random image from the memes stored in imgFlip and allows you create and download a self made meme.</p>
                     <div className="btnContainer2">
-                        <Link to="/" className="btns">Website</Link>
-                        <a target="_blank" href="https://github.com/Daniel-Wonders/portfolio" className="btns btns2">Source Code</a>
+                        <a href="https://daniel-wonders.github.io/meme-generator/" target="_blank" className="btns">Website</a>
+                        <a href="https://github.com/Daniel-Wonders/meme-generator" target="_blank" className="btns btns2">Source Code</a>
                     </div>
                 </div>
             </div>
+
+
         </div>
     )
 }

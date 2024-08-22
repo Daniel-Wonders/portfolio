@@ -136,17 +136,22 @@ li {
 }
 
 #menuBtn:active {
-  transform: scale(0.9); /* Adds a slight shrink effect when the button is pressed */
+  transform: scale(0.9); 
 }
 
 
 @media (max-width:1240px){
 
   .intro {
+    padding-top: 2rem !important;
     font-size: 5vh; /* Adjusted for smaller screens */
-
+    margin: 0px !important;
   }
 
+  .intro2{
+    margin: 0px !important;
+
+  }
 
   #pfp{
     width: 80vw !important;
@@ -181,6 +186,12 @@ li {
                       'buttons buttons image';
   gap: 10px;
   margin-bottom: 2rem;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+#hero:nth-child(odd) {
+  animation-name: fadeInFromLeft;
 }
 
 .text {
@@ -270,6 +281,12 @@ li {
                       ' image text text text';
   gap: 10px;
   margin-bottom: 2rem;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+#AboutHero:nth-child(odd) {
+  animation-name: fadeInFromRight;
 }
 
 #aboutPic{
@@ -294,6 +311,12 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin: 30px;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+#skillsSection:nth-child(even) {
+  animation-name: fadeInFromLeft;
 }
 
 .skill{
@@ -433,6 +456,29 @@ li {
   margin: 1em;
   padding: 1.5rem 2rem;
   font-weight: 600;
+}
+
+@media(max-width:1150px){
+  .project{
+    display: block;
+  }
+  .container{
+    margin: auto !important;
+  }
+}
+@media(max-width:680px){
+  .project{
+    width: 90vw;
+  }
+  .container{
+    width: 100% !important;
+  }
+  .project > img{
+    width: 85vw !important;
+  }
+  .project >.container> .btnContainer2 >a{
+    width: 20vw !important;
+  }
 }
 
 footer {
