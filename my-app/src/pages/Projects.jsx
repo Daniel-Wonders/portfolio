@@ -12,7 +12,7 @@ export default function Projects(){
                 <img alt="Portfolio website" src={process.env.PUBLIC_URL+"/portfolio.png"} />
                 <div className="container">
                     <h3 style={{marginTop:"5px"}}>Personal landing page</h3>
-                    <p>This website you're looking right now was made using different routes from React Router, also, I made it responsive so it can be displayed from any device.</p>
+                    <p>The website you're looking at right now was made using different routes from React Router, also, I made it responsive so it can be displayed from any device.</p>
                     <div className="btnContainer2">
                         <Link to="/" className="btns">Website</Link>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Daniel-Wonders/portfolio" className="btns btns2">Source Code</a>

@@ -13,8 +13,8 @@ export default function About(){
                     <h1>Student, also, developer</h1>
                     <p>Ever since I was young, I always liked the feeling of having a computer do what I want. With this in mind, I enrolled in a technical school, which allowed me to cement the feeling that computer science was my passion.</p>
                     <p>In high school, I dove into programming with languages such as Python, SQL, Java, and Arduino. The joy I found in learning these technologies was immense, and after graduating as a Computer Science technician, I continued my journey by enrolling in the Computer Science program at the University of Buenos Aires, where I am currently studying.</p>
-                    <p>Since I was 15, I have been constantly working on fun projects, driven purely by curiosity and the joy of creation. Recently, I ventured into web development through courses and self-study, and I've found it incredibly enjoyable.</p>
-                    <p>Nowadays, I'm constantly working on fun projects (like the page you're currently on), and I don't plan to ever stop. In the future, I'd like to have my own software factory to develop cool pieces of technology for the world.</p>
+                    <p>Since I was 15, I have been constantly working on fun projects, driven purely by curiosity and the joy of creation. Recently, I've ventured into web development through courses and self-study, and I've found it incredibly enjoyable.</p>
+                    <p>Nowadays, I'm constantly working on fun projects (like the page you're currently on), and I'm not willing to ever stop. In the future, I'd like to have my own software factory to develop cool pieces of technology for the world.</p>
                     <p>Beyond my professional interests, I enjoy surfing whenever I can and have a deep love for the beach, as evidenced by the photo (I swear I'm having fun). I also share my life with a cat and a dog, whom I consider family.</p></div>
             </div>
             <div id="skillsSection">

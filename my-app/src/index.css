@@ -145,7 +145,10 @@ li {
   .intro {
     padding-top: 2rem !important;
     font-size: 5vh; /* Adjusted for smaller screens */
-    margin: 0px !important;
+    margin: 0px 10px !important;
+  }
+  .btnContainer{
+    margin: 10px !important;
   }
 
   .intro2{
@@ -153,8 +156,14 @@ li {
 
   }
 
+  .intro3{
+    margin: 0px !important;
+
+  }
+
   #pfp{
     width: 80vw !important;
+    margin: 0px !important;
   }
 
   #menuBtn{
@@ -498,6 +507,10 @@ li {
   }
 }
 @media(max-width:680px){
+  #name{
+    padding-right: auto;
+    font-size: 34px;
+  }
   .project{
     width: 90vw;
   }
@@ -509,6 +522,9 @@ li {
   }
   .project >.container> .btnContainer2 >a{
     width: 20vw !important;
+  }
+  .btnContainer2>.btns{
+    padding: 1rem 1rem !important;
   }
 }
 
@@ -535,7 +551,8 @@ li {
 #contactText{
   font-size: larger;
   grid-area: text;
-  margin-top: 70px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .btnContainer3{
@@ -548,9 +565,15 @@ li {
 
 @media(max-width:900px){
   #contactHero{
-    border: solid red;
     grid-template-areas: 'text       '
                         'buttons    ' ;
+    height: min-content;
+    padding: 10px;
+  }
+  .btnContainer3{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: min-content;
   }
 }
 
