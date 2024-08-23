@@ -9,7 +9,6 @@ import Contact from "./pages/Contact"
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path="" element={<Layout />}>
             <Route index element={<Home />} />
@@ -18,7 +17,6 @@ function App() {
             <Route path='contact' element={<Contact />} />
           </Route>
         </Routes>
-      </BrowserRouter>
     </div>
   );
 } 
