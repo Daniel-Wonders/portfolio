@@ -23,13 +23,13 @@ export default function Layout() {
                     <li><NavLink style={({ isActive }) => isActive ? activeStyles : null} to="/projects" className="nav-link">Projects</NavLink></li>
                     <li><NavLink style={({ isActive }) => isActive ? activeStyles : null} to="/contact" className="nav-link">Contact</NavLink></li>
                 </ul>
-                <img id="menuBtn" src={process.env.PUBLIC_URL + "menu.png"} onClick={toggleMenu} alt="Menu Button"/>
+                <img id="menuBtn" src={process.env.PUBLIC_URL + "/menu.png"} onClick={toggleMenu} alt="Menu Button"/>
             </header>
 
             {menuOpen? 
             <div id="sidePanel" className={ "open" }>
                 <ul>
-                    <img id="menuBtn" src={process.env.PUBLIC_URL + "menu.png"} onClick={toggleMenu} alt="Menu Button"/>
+                    <img id="menuBtn" src={process.env.PUBLIC_URL + "/menu.png"} onClick={toggleMenu} alt="Menu Button"/>
                     <li><NavLink onClick={toggleMenu} to="/" end className="nav-link">Home</NavLink></li>
                     <li><NavLink onClick={toggleMenu} to="/about" className="nav-link">About</NavLink></li>
                     <li><NavLink onClick={toggleMenu} to="/projects" className="nav-link">Projects</NavLink></li>
