@@ -32,6 +32,9 @@ export default function About(){
                     <img alt="icon" className="icon" src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"/>
                     <p>React</p></div>
                 <div className="skill">
+                    <img alt="icon" className="icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"/>
+                    <p>Bootstrap</p></div>
+                <div className="skill">
                     <img alt="icon" className="icon" src="https://www.svgrepo.com/show/354262/react-router.svg"/>
                     <p>React Router</p></div>
                 <div className="skill">
@@ -58,6 +61,7 @@ export default function About(){
                 <div className="skill">
                     <img alt="icon" className="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968259.png"/>
                     <p>Haskell</p></div>
+                
                     
             </div>
         </>
